@@ -72,5 +72,6 @@ builder.getProduct().listParts(); // reset
 director.buildFullFeaturedProduct();
 builder.getProduct().listParts(); // reset
 
+// use without director
 builder.producePartA().producePartB(); // custom
 builder.getProduct().listParts(); // reset
