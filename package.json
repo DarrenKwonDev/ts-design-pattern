@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec ts-node ./src/creationalPattern/singleton.ts"
+    "start": "nodemon --exec ts-node ./src/structuralPattern/adapter.ts"
   },
   "keywords": [],
   "author": "DarrenKwonDev",

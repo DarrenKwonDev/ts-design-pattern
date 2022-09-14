@@ -1,6 +1,6 @@
 # ts-design-pattern
 
-디자인 패턴 책을 그냥 하나 사서 보는게 더 체계있을 듯...
+다들 보는 java로 쓰여진 디자인 패턴 책을 그냥 하나 사서 보는게 더 체계있을 듯... 짜면서 흔히 생각해볼만한 패턴들을 정리하는 의의 정도로 생각하자.
 
 ## creational Pattern : 객체를 생성하는 패턴
 
@@ -18,5 +18,9 @@
   - service, repository layer 생성시 singleton 객체로 만드는게 일반적.
   - 예전에 node로 알림 서버 만들 때 eventEmitter를 extends한 객체의 singleton 보장을 못해서 고생을 한 기억이 있다.
   - node 런타임에선 타 모듈을 불러올 때 자동으로 key값을 매겨 별 다른 짓을 안해도 singleton을 자연스레 사용하게 되지만 constructor를 private으로 제한하면 더 안전하게 사용할 수 있다.
+
+## structural patterns
+
+- [ ] adapter
 
 https://refactoring.guru/
