@@ -1,6 +1,8 @@
 # ts-design-pattern
 
-## creational Pattern
+디자인 패턴 책을 그냥 하나 사서 보는게 더 체계있을 듯...
+
+## creational Pattern : 객체를 생성하는 패턴
 
 - [ ] factory method
   - 객체를 생성하는 factory
