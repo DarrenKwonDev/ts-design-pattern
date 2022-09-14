@@ -23,5 +23,7 @@
 ## structural patterns
 
 - [ ] adapter
+  - 기존 interface를 유지하면서 다른 interface로 변환할 때. 이미 interface를 활용하여 존재하는 코드가 있을 때 해당 interface의 implementation spec을 충족시키기 위해 사용. 말 그대로 adapter. 한 포맷에서 다른 포맷으로 변환하는 과정을 상상해보자.
+  - 결국 호환성의 문제 해결임. 코드량이 적다면 그냥 코드를 바꾸는 선택도 나쁘지 않을 듯
 
 https://refactoring.guru/
